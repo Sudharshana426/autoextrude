@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://dl1l02rixxftt"]
+
+[ext_resource type="Script" path="res://scripts/master_scene.gd" id="1_05bpf"]
+[ext_resource type="Texture2D" uid="uid://bu4gun4ncxg71" path="res://assets/BackgroundImage.png" id="2_1vcm6"]
+[ext_resource type="Texture2D" uid="uid://bxd0ep8xj5d7m" path="res://assets/UploadButton.png" id="3_tc6hk"]
+[ext_resource type="Texture2D" uid="uid://wk71jyi8etqu" path="res://assets/UploadButtonHover.png" id="4_lqpdu"]
+[ext_resource type="Texture2D" uid="uid://c6wdtdhwjw0va" path="res://assets/TaglineText.png" id="5_uu402"]
+[ext_resource type="Texture2D" uid="uid://b8trmqqfkxwxy" path="res://assets/TaglineTextHover.png" id="6_id314"]
+
+[node name="MasterScene" type="Node2D"]
+script = ExtResource("1_05bpf")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(579.688, 325.313)
+scale = Vector2(0.957916, 0.597781)
+texture = ExtResource("2_1vcm6")
+
+[node name="Upload" type="TextureButton" parent="Sprite"]
+offset_left = -306.827
+offset_top = 227.323
+offset_right = 355.173
+offset_bottom = 353.323
+texture_normal = ExtResource("3_tc6hk")
+texture_hover = ExtResource("4_lqpdu")
+stretch_mode = 0
+
+[node name="Tagline" type="TextureButton" parent="Sprite"]
+offset_left = -234.0
+offset_top = 357.0
+offset_right = 286.0
+offset_bottom = 448.0
+texture_normal = ExtResource("5_uu402")
+texture_hover = ExtResource("6_id314")
+stretch_mode = 0
