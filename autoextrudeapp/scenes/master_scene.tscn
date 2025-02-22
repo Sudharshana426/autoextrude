@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://5vh7ncmovqhx"]
+
+[ext_resource type="Script" path="res://scripts/master_scene.gd" id="1_khbju"]
+[ext_resource type="Texture2D" uid="uid://bu4gun4ncxg71" path="res://assets/BackgroundImage.png" id="2_8ihhg"]
+[ext_resource type="Texture2D" uid="uid://bxd0ep8xj5d7m" path="res://assets/UploadButton.png" id="3_5f32f"]
+[ext_resource type="Texture2D" uid="uid://wk71jyi8etqu" path="res://assets/UploadButtonHover.png" id="4_tth0d"]
+[ext_resource type="Texture2D" uid="uid://c6wdtdhwjw0va" path="res://assets/TaglineText.png" id="5_dv6op"]
+
+[node name="MasterScene" type="Node2D"]
+script = ExtResource("1_khbju")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(578.499, 322.687)
+scale = Vector2(0.961572, 0.589776)
+texture = ExtResource("2_8ihhg")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 300.0
+offset_top = 459.0
+offset_right = 875.0
+offset_bottom = 538.0
+texture_normal = ExtResource("3_5f32f")
+texture_hover = ExtResource("4_tth0d")
+stretch_mode = 0
+
+[node name="TaglineText" type="Sprite2D" parent="."]
+position = Vector2(589, 579)
+scale = Vector2(1.0362, 1.30702)
+texture = ExtResource("5_dv6op")
