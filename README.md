@@ -47,9 +47,10 @@ It duplicates vertices from contour points, connect the bases and top using tria
 
 ## Tech Stack
 1. **Godot Engine (4.x):** Used for real-time rendering and GDScript-based mesh generation.
-2. **GDScript:** Lightweight yet high-performance language for procedural geometry manipulation.
-3. **Image Processing Techniques:** Edge detection algorithms (e.g., Canny Edge Detection) for accurate boundary identification.
-4. **Shader Programming:** Custom shaders for dynamic material application and UV mapping.
+   ![Godot Logo](https://godotengine.org/assets/press/logo_large_color_dark.png)
+3. **GDScript:** Lightweight yet high-performance language for procedural geometry manipulation.
+4. **Image Processing Techniques:** Edge detection algorithms (e.g., Canny Edge Detection) for accurate boundary identification.
+5. **Shader Programming:** Custom shaders for dynamic material application and UV mapping.
 
 ## Installation & Usage
 
