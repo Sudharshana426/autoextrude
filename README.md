@@ -4,7 +4,7 @@
 
 AutoExtrude is an open-source tool designed to automatically convert 2D floor plans into precise 3D building models. It leverages advanced image processing, vector analysis, and procedural mesh generation using the Godot Engine.
 
-##Why Godot and Why Autoextrude?
+## Why Godot and Why Autoextrude?
 Traditional architectural visualization tools require manual and time-consuming processes for creating 3D models from floor plans. This can be tedious for architects, designers, and developers who need quick visualizations.
 
 - **Reduces Modeling Time:** Automation significantly reduces manual labor, increasing productivity.
@@ -57,7 +57,7 @@ It duplicates vertices from contour points, connect the bases and top using tria
 - Install **Godot Engine** (version 4.x recommended).
 - Clone this repository using the Git command-line tool or GitHub Desktop client:
   ```sh
-  git clone https://github.com/your-github-account-name/autoextrude.git  
+  git clone https://github.com/Sudharshana426/autoextrude.git
   cd autoextrude  
   ```
 - Open the project in the Godot Editor environment.
